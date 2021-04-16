@@ -1,4 +1,4 @@
-[
+var incomingData = [
    {
       "title": "The Shawshank Redemption",
       "year": 1994,

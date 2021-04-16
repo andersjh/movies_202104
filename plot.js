@@ -1,6 +1,6 @@
 // Use d3.json() to fetch data from JSON file
 // Incoming data is internally referred to as incomingData
-d3.json("data/data.json").then((incomingData) => {
+// d3.json("data/data.json").then((incomingData) => {
   function filterMovieRatings(movie) {
     return movie.imdbRating > 8.9;
   }
@@ -39,4 +39,5 @@ d3.json("data/data.json").then((incomingData) => {
 
   // Plot the chart to a div tag with id "bar-plot"
   Plotly.newPlot("bar-plot", data, layout);
-});
+// }
+// );
